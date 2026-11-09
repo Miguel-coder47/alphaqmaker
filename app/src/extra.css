@@ -1,0 +1,7 @@
+body.ph{max-width:560px;min-height:100vh;margin:0 auto;padding-top:calc(32px + env(safe-area-inset-top,0px));padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+#app{display:flex;flex-direction:column;gap:16px}#app>*{animation:rise .5s cubic-bezier(.2,.8,.2,1) both}
+.card.ok,.card.no{border-width:2px}.card.ok,.card.no,.card.pick{font-weight:400}
+select.inp,input[type=file],input[type=date]{font:500 15px Inter,sans-serif;color:var(--ink)}input[type=checkbox]{width:22px;height:22px;accent-color:var(--ac)}
+.foot{margin-top:8px}h2.q{margin:0}a.lnk{display:inline-flex;align-items:center}
+.qmain{display:flex;flex-direction:column;gap:16px}.qgrid{display:block}.side{display:none;gap:12px;position:sticky;top:16px}
+@media(min-width:900px){body.ph{max-width:1080px}.qgrid{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}.side{display:flex}}

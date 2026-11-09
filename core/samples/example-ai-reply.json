@@ -1,0 +1,10 @@
+```json
+[
+ {"type":"blanks","prompt":"____ release energy for the cell through cellular respiration.","key":{"blanks":[{"accepted":["mitochondria","mitochondrion"]}]},"source":{"page":1},"evidence":"Mitochondria release energy for the cell through cellular respiration."},
+ {"type":"mcq","prompt":"Where does photosynthesis occur?","options":[{"id":"a","text":"Nucleus"},{"id":"b","text":"Chloroplasts"},{"id":"c","text":"Ribosomes"},{"id":"d","text":"Golgi"}],"key":{"correct":"b"},"source":{"page":2},"evidence":"Photosynthesis occurs in the chloroplasts of plant cells and converts light into chemical energy."},
+ {"type":"modtf","prompt":"Osmosis is the movement of water across a semipermeable membrane toward lower solute concentration.","underlined":"lower","key":{"truth":false,"correction":["higher"]},"source":{"page":3},"evidence":"Osmosis is the movement of water across a semipermeable membrane toward higher solute concentration."},
+ {"type":"blanks","prompt":"The ____ is the control centre of every cell.","key":{"blanks":[{"accepted":["nucleus"]}]},"source":{"page":1},"evidence":"The nucleus is the control centre of every cell."},
+ {"type":"mcq","prompt":"What do ribosomes build?","options":[{"id":"a","text":"Proteins"},{"id":"b","text":"Lipids"}],"key":{"correct":"z"},"source":{"page":2},"evidence":"Ribosomes build proteins by following instructions copied from the genetic material."},
+ {"type":"blanks","prompt":"____ release energy for the cell through cellular respiration!","key":{"blanks":[{"accepted":["mitochondria"]}]},"source":{"page":1},"evidence":"Mitochondria release energy for the cell through cellular respiration."}
+]
+```

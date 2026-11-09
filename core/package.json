@@ -1,0 +1,19 @@
+{
+  "name": "quiz-maker-core",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "inspect": "node tools/inspect.js",
+    "prompt": "node tools/prompt.js",
+    "check": "node tools/check-quiz.js"
+  },
+  "dependencies": {
+    "jszip": "^3.10.2",
+    "pdfjs-dist": "^6.5.438"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

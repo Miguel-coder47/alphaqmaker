@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-11-09T04:44:14.996Z",
+  "quiz": {
+    "id": "sample-solar-system",
+    "title": "Sample: the solar system",
+    "questions": [
+      {
+        "id": "s01",
+        "type": "mcq",
+        "prompt": "Which planet is closest to the Sun?",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Mercury"
+          },
+          {
+            "id": "b",
+            "text": "Venus"
+          },
+          {
+            "id": "c",
+            "text": "Earth"
+          },
+          {
+            "id": "d",
+            "text": "Mars"
+          }
+        ],
+        "key": {
+          "correct": "a"
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s02",
+        "type": "mcq",
+        "prompt": "What is the largest planet in the solar system?",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Saturn"
+          },
+          {
+            "id": "b",
+            "text": "Jupiter"
+          },
+          {
+            "id": "c",
+            "text": "Neptune"
+          },
+          {
+            "id": "d",
+            "text": "Earth"
+          }
+        ],
+        "key": {
+          "correct": "b"
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s03",
+        "type": "tf",
+        "prompt": "The Sun is a star.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "key": {
+          "correct": true
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s04",
+        "type": "blanks",
+        "prompt": "Earth takes about ____ days to orbit the Sun once.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "key": {
+          "blanks": [
+            {
+              "accepted": [
+                "365"
+              ]
+            }
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s05",
+        "type": "blanks",
+        "prompt": "The force that keeps the planets in orbit around the Sun is ____.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "key": {
+          "blanks": [
+            {
+              "accepted": [
+                "gravity"
+              ]
+            }
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s06",
+        "type": "modtf",
+        "prompt": "Mars is known as the Blue Planet.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "underlined": "Blue",
+        "key": {
+          "truth": false,
+          "correction": [
+            "Red"
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s07",
+        "type": "modtf",
+        "prompt": "The Moon orbits the Earth.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "underlined": "Earth",
+        "key": {
+          "truth": true
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s08",
+        "type": "multi",
+        "prompt": "Which of these are gas giants?",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Jupiter"
+          },
+          {
+            "id": "b",
+            "text": "Saturn"
+          },
+          {
+            "id": "c",
+            "text": "Mars"
+          },
+          {
+            "id": "d",
+            "text": "Earth"
+          }
+        ],
+        "key": {
+          "correct": [
+            "a",
+            "b"
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s09",
+        "type": "matching",
+        "prompt": "Match each planet to a well-known feature.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "left": [
+          {
+            "id": "1",
+            "text": "Jupiter"
+          },
+          {
+            "id": "2",
+            "text": "Saturn"
+          },
+          {
+            "id": "3",
+            "text": "Venus"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "The Great Red Spot"
+          },
+          {
+            "id": "b",
+            "text": "Prominent rings"
+          },
+          {
+            "id": "c",
+            "text": "The hottest surface"
+          }
+        ],
+        "key": {
+          "pairs": {
+            "1": "a",
+            "2": "b",
+            "3": "c"
+          }
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s10",
+        "type": "enumeration",
+        "prompt": "Name the four inner (rocky) planets.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "key": {
+          "items": [
+            {
+              "accepted": [
+                "mercury"
+              ]
+            },
+            {
+              "accepted": [
+                "venus"
+              ]
+            },
+            {
+              "accepted": [
+                "earth"
+              ]
+            },
+            {
+              "accepted": [
+                "mars"
+              ]
+            }
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s11",
+        "type": "blanks",
+        "prompt": "A day on Earth is about ____ hours long.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "key": {
+          "blanks": [
+            {
+              "accepted": [
+                "24"
+              ]
+            }
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s12",
+        "type": "tf",
+        "prompt": "Venus is the hottest planet in the solar system.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "key": {
+          "correct": true
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      },
+      {
+        "id": "s13",
+        "type": "modtf",
+        "prompt": "Saturn is the planet closest to the Sun.",
+        "version": 1,
+        "source": {
+          "page": 1
+        },
+        "underlined": "closest to",
+        "key": {
+          "truth": false,
+          "correction": [
+            "farther from",
+            "far from",
+            "not close to"
+          ]
+        },
+        "evidence": "Basic astronomy (original sample question)"
+      }
+    ]
+  }
+}

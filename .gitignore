@@ -1,0 +1,14 @@
+# Never upload secrets or personal study material
+.env
+.env.*
+!.env.example
+node_modules/
+prompts/
+*.pages.json
+*.quiz.json
+!samples/*.quiz.json
+# Course materials are usually copyrighted. Keep them out of a public repository.
+*.pdf
+*.pptx
+!core/samples/*.pdf
+!core/samples/*.pptx
